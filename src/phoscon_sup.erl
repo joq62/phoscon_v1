@@ -30,7 +30,10 @@ init([]) ->
                  intensity => 0,
                  period => 1},
     ChildSpecs = [
-		  
+		  #{id => log,               
+		    start => {log,start_link,[]}},
+		  #{id => rd,               
+		    start => {rd,start_link,[]}},
 		  #{id => phoscon,               
 		    start => {phoscon,start_link,[]}}	 
 		 ],
