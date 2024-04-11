@@ -1,0 +1,36 @@
+{"1.2.0",
+[{<<"cowboy">>,
+  {git,"https://github.com/ninenines/cowboy",
+       {ref,"b77dd29133365a11a4884af8f0fe432981d3f8a3"}},
+  1},
+ {<<"cowlib">>,
+  {git,"https://github.com/ninenines/cowlib",
+       {ref,"941d408ea40022da3148b5b96483d5e8f95caaa4"}},
+  1},
+ {<<"gun">>,
+  {git,"https://github.com/ninenines/gun",
+       {ref,"e7dd9f227e46979d8073e71c683395a809b78cb4"}},
+  1},
+ {<<"jsx">>,{pkg,<<"jsx">>,<<"3.1.0">>},1},
+ {<<"log_service">>,
+  {git,"https://github.com/joq62/log_service.git",
+       {ref,"19e4eb8f871eda682c6a81d8e387a33a8f8acf0a"}},
+  0},
+ {<<"phoscon_service">>,
+  {git,"https://github.com/joq62/phoscon_service.git",
+       {ref,"a44a34845928df01b13c72cf97a75999acc5a5a5"}},
+  0},
+ {<<"ranch">>,
+  {git,"https://github.com/ninenines/ranch",
+       {ref,"3190aef88aea04d6dce8545fe9b4574288903f44"}},
+  1},
+ {<<"rd_service">>,
+  {git,"https://github.com/joq62/rd_service.git",
+       {ref,"f3d4456e84c93f4b48f94d24b6254df8c3f54c32"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"jsx">>, <<"D12516BAA0BB23A59BB35DCCAF02A1BD08243FCBB9EFE24F2D9D056CCFF71268">>}]},
+{pkg_hash_ext,[
+ {<<"jsx">>, <<"0C5CC8FDC11B53CC25CF65AC6705AD39E54ECC56D1C22E4ADB8F5A53FB9427F3">>}]}
+].
